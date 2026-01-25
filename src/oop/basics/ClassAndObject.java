@@ -1,10 +1,10 @@
 package oop.basics;
 
-public class ClassAndObject { //here we create a class and its object and insert/display its values.
+public class ClassAndObject { //create a class and its object and insert/display its values.
 
     public static void main(String[] args) {
 
-        //object diksha of type 'Employee' is created
+        //object 'Diksha' of type 'Employee' is created
         Employee Diksha = new Employee();
 
         //adding values of fields
