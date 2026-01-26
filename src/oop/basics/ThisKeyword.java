@@ -12,6 +12,13 @@ public class ThisKeyword { //use of 'this' keyword and assign diff set of values
         System.out.println(Diksha.roll+" "+Diksha.name+" "+Diksha.marks);
         System.out.println(Ria.roll+" "+Ria.name+" "+Ria.marks);
 
+        //creating object 'std1' without passing parameters
+        Student std1=new Student();
+
+        //displaying values of object 'st1'
+        System.out.println(std1.roll+" "+std1.name+" "+std1.marks);
+        //it will call the constructor that is calling another constructor
+
 
     }
 
@@ -28,5 +35,12 @@ class Student{
         this.roll=rno;
         this.name=stdname;
         this.marks=stdmarks;
+    }
+
+    //'this' keyword can also be used to call a constructor from another constructor
+    Student(){
+
+        this(0,"default",0.0f);
+        //internally it means: new Student(0,"default",0.0f);
     }
 }
