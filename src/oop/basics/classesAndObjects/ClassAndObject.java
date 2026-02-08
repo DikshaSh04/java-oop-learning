@@ -1,6 +1,8 @@
-package oop.basics;
+package oop.basics.classesAndObjects;
 
-public class ClassAndObject { //create a class and its object and insert/display its values.
+import oop.basics.classesAndObjects.Employee;
+
+public class ClassAndObject {//create a class and its object and insert/display its values.
 
     public static void main(String[] args) {
 
@@ -18,10 +20,4 @@ public class ClassAndObject { //create a class and its object and insert/display
         System.out.println(Diksha.dept);
 
     }
-}
-//creating class 'Employee' with three fields
-class Employee {
-    int Id;
-    String name;
-    String dept;
 }

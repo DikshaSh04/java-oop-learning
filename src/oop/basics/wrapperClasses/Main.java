@@ -1,6 +1,6 @@
-package oop.basics;
+package oop.basics.wrapperClasses;
 
-public class WrapperClasses {
+public class Main {
     public static void main(String[] args) {
         //wrapper classes allow representation of primitives as objects
 
@@ -21,5 +21,4 @@ public class WrapperClasses {
 
 
     }
-
 }
