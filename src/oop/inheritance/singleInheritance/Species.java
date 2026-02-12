@@ -1,4 +1,4 @@
-package oop.inheritance.Demo;
+package oop.inheritance.singleInheritance;
 
 public class Species {
     int age;
