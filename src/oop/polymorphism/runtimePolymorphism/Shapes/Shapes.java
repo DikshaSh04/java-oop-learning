@@ -1,4 +1,4 @@
-package oop.polymorphism.runtimePolymorphism;
+package oop.polymorphism.runtimePolymorphism.Shapes;
 
 public class Shapes {
     void location(){

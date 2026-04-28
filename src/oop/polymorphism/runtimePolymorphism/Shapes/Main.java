@@ -1,5 +1,5 @@
-package oop.polymorphism.runtimePolymorphism;
-import oop.polymorphism.runtimePolymorphism.*;
+package oop.polymorphism.runtimePolymorphism.Shapes;
+
 public class Main {
     public static void main(String[] args) {
         Shapes s1=new Shapes(); //both ref variable and object are of type 'Shapes'
